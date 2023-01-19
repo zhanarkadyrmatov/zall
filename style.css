@@ -1,0 +1,307 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+}
+
+.header__top {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  text-transform: capitalize;
+}
+
+.hero {
+  background-color: #c3140f;
+  height: 534px;
+  /* margin-bottom: 50px; */
+}
+
+.hero__text {
+  font-family: "Bebas Neue";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 60px;
+  letter-spacing: 0.1em;
+  z-index: 2;
+}
+
+.hero__blog {
+  padding-top: 131px;
+  position: relative;
+}
+
+.hero__posi {
+  position: absolute;
+  top: 250px;
+  left: 100px;
+  font-family: "Bebas Neue";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 180px;
+  line-height: 136px;
+  letter-spacing: 50px;
+  text-transform: capitalize;
+  opacity: 0.2;
+  color: #c3140f;
+  text-shadow: 0.1px 0.1px 0 #fff, -1px -1px 0 #fff, 1px -1px 0 #fff,
+    -1px 1px 0 #fff, 1px 1px 0 #fff;
+  z-index: 1;
+}
+
+.hero__img {
+  width: 264px;
+  height: 487px;
+  z-index: 2;
+}
+
+.hero__bag__img {
+  border: 25px solid #faff05;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  width: 301px;
+  height: 403px;
+  z-index: 2;
+}
+
+.hero__title {
+  width: 100px;
+  height: 2px;
+  background-color: #faff05;
+  margin: 30px 0;
+}
+
+.blog__text {
+  font-family: "Bebas Neue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 40px;
+  letter-spacing: 0.15em;
+  text-transform: capitalize;
+  color: #8a8a8a;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.blog__title {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 60px;
+  text-align: center;
+  color: #100e18;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.blog__mar {
+  padding: 100px;
+}
+
+.personal {
+  background-image: url("./img/Image\ Woman.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 630px;
+}
+
+.personal__blog {
+  padding-top: 150px;
+}
+
+.personal__card {
+  width: 340px;
+  height: 300px;
+  border: 1px solid #8a8a8a;
+  border-top: 2px solid #faff05;
+  padding: 25px;
+}
+
+.personal__title {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.personal__text {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  color: #8a8a8a;
+}
+
+.personal__card-center {
+  background-color: #faff05;
+  padding: 25px;
+  width: 100%;
+  height: 360px;
+}
+
+.card__title {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: #100e18;
+}
+.card__text {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  color: #100e18;
+  order: 1;
+  margin-bottom: 30px;
+}
+
+.personal__btn {
+  text-decoration: none;
+  color: #c3140f;
+  font-size: 20px;
+}
+
+.features {
+  background-image: url("./img/1.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 780px;
+}
+
+.features__card {
+  margin-top: 140px;
+}
+
+.features__title {
+  position: relative;
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #100e18;
+}
+
+.features__title::after {
+  position: absolute;
+  content: "";
+  background-color: #faff05;
+  width: 30px;
+  height: 2px;
+  top: 50%;
+  left: 0;
+}
+
+.features__text {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  color: #100e18;
+  opacity: 0.7;
+}
+.slider {
+  margin-bottom: 80px;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.slider__title {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 32px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #100e18;
+}
+
+.slider__marg {
+  margin-bottom: 60px;
+}
+
+.price__title {
+  padding: 5px 20px;
+  background-color: #fae6e5;
+  margin-top: 20px;
+  line-height: 40px;
+  color: #c3140f;
+}
+
+.price__pri {
+  font-family: "Bebas Neue";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 36px;
+  letter-spacing: 0.05em;
+  text-transform: capitalize;
+  color: #100e18;
+  padding: 0;
+  margin: 0;
+}
+
+.price__text {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #100e18;
+}
+
+.price__li {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #100e18;
+  position: relative;
+  margin: 10px 0;
+}
+.price__li::after {
+  position: absolute;
+  content: "";
+  width: 5px;
+  height: 5px;
+  border: 1px solid #c3140f;
+  top: 40%;
+  left: 0;
+}
+
+.price__btn {
+  font-size: 12px;
+  margin: 20px 0 10px;
+}
